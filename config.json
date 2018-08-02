@@ -1,69 +1,62 @@
 [
   {
-    "title":"Wordpress Blogs",
+    "title":"Principal",
     "drawable":"",
-    "submenu":"",
+    "submenu":"Other",
     "iap":false,
     "tabs":[
       {
-        "title":"Recent Posts",
-        "provider":"wordpress",
+        "title":"Principal",
+        "provider":"webview",
         "arguments":[
-          "en.blog.wordpress.com"
-        ]
-      },
-      {
-        "title":"Themes",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "themes"
-        ]
-      },
-      {
-        "title":"Security",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "security"
-        ]
-      },
-      {
-        "title":"Events",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "events"
+          "https://meuphilim.github.io/m2/"
         ]
       }
     ]
+
   },
   {
-    "title":"Radio 3FM",
+    "title":"Central do Assinante",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Central do Assinante",
+        "provider":"webview",
+        "arguments":[
+          "http://177.202.43.19/index.php?tipo=minhaconta"
+        ]
+      }
+    ]
+
+  },
+  {
+    "title":"RádioWeb Cidade FM",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Radio 3FM",
+        "title":"RádioWeb Cidade FM",
         "provider":"radio",
         "arguments":[
-          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99226864"
+          "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
         ]
       }
     ]
   },
   {
-    "title":"Live TV ABC",
+    "title":"GLOOB HD",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Live TV ABC",
+        "title":"GLOOB HD",
         "provider":"stream",
         "arguments":[
-          "http://www.streambox.fr/playlists/test_001/stream.m3u8"
+          "http://lista.digitalgroup.me:80/live/paulo7563/paulo7563/5086.m3u8"
         ]
       }
     ]
