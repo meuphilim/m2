@@ -1,7 +1,7 @@
 [
   {
     "title":"Principal",
-    "drawable":"ic_m2.png",
+    "drawable":"res/ic_m2.png",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
