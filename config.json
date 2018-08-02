@@ -17,7 +17,7 @@
   },
   {
     "title":"Central do Assinante",
-    "drawable":"ic_account_box.png",
+    "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
@@ -33,7 +33,7 @@
   },
   {
     "title":"RádioWeb Cidade FM",
-    "drawable":"ic_radio.png",
+    "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[
@@ -48,7 +48,7 @@
   },
   {
     "title":"GLOOB HD",
-    "drawable":"ic_personal_video.png",
+    "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[
