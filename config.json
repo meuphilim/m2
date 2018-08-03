@@ -11,7 +11,7 @@
         "arguments":[
           "m2telecomunicacao.wordpress.com"
         ]
-      };
+      }
       {
         "title":"Recent Posts",
         "provider":"wordpress",
