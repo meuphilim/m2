@@ -88,13 +88,6 @@
         "arguments":[
           "https://m2telecomunicacao.wordpress.com/feed/"
         ]
-      },
-      {
-        "title":"MrSuisideSeep",
-        "provider":"rss",
-        "arguments":[
-          "https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ"
-        ]
       }
     ]
   },
@@ -183,7 +176,7 @@
         "title":"Youtube Live",
         "provider":"youtube",
         "arguments":[
-          "4_vBl_VXaa8",
+          "UCVeETS7uZTAARqvv2zssZCw",
           "live"
         ]
       },
