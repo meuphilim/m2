@@ -9,7 +9,7 @@
         "title":"Recent Posts",
         "provider":"wordpress",
         "arguments":[
-          "https://meuphilim.000webhostapp.com/"
+          "meuphilim.000webhostapp.com"
         ]
       }
     ]
