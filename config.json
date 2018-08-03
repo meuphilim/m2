@@ -6,7 +6,7 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Recent Posts",
+        "title":"Home",
         "provider":"webview",
         "arguments":[
           "https://meuphilim.github.io/mobile/"
@@ -19,8 +19,6 @@
           "m2telecomunicacao.wordpress.com"
         ]
       }
-    ]
-  },
     ]
   },
   {
