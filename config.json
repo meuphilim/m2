@@ -1,84 +1,53 @@
 [
-    {
+  {
     "title":"Wordpress Blogs",
     "drawable":"",
-    "submenu":"Principal",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Home",
+        "title":"Recent Posts",
         "provider":"webview",
         "arguments":[
           "https://meuphilim.github.io/mobile/"
         ]
-      }
+      },
       {
-        "title":"Recent Posts",
+        "title":"Themes",
         "provider":"wordpress",
         "arguments":[
-          "m2telecomunicacao.wordpress.com"
+          "m2telecomunicacao.wordpress.com",
+          "Blog"
         ]
-      }
+      },
     ]
   },
   {
-    "title":"Principal",
-    "drawable":"ic_m2",
-    "submenu":"Clientes",
+    "title":"Radio 3FM",
+    "drawable":"",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Principal",
-        "provider":"webview",
-        "arguments":[
-          "https://meuphilim.github.io/m2/"
-        ]
-      }
-    ]
-
-  },
-  {
-    "title":"Central do Assinante",
-    "drawable":"ic_account_box",
-    "submenu":"Clientes",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Central do Assinante",
-        "provider":"webview",
-        "arguments":[
-          "http://177.202.43.19/index.php?tipo=minhaconta"
-        ]
-      }
-    ]
-
-  },
-  {
-    "title":"RádioWeb Cidade FM",
-    "drawable":"ic_radio",
-    "submenu":"Entretenimento",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"RádioWeb Cidade FM",
+        "title":"Radio 3FM",
         "provider":"radio",
         "arguments":[
-          "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
+          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99226864"
         ]
       }
     ]
   },
   {
-    "title":"GLOOB HD",
-    "drawable":"ic_personal_video",
-    "submenu":"Entretenimento",
+    "title":"Live TV ABC",
+    "drawable":"",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"GLOOB HD",
+        "title":"Live TV ABC",
         "provider":"stream",
         "arguments":[
-          "http://lista.digitalgroup.me:80/live/paulo7563/paulo7563/5086.m3u8"
+          "http://www.streambox.fr/playlists/test_001/stream.m3u8"
         ]
       }
     ]
@@ -90,10 +59,17 @@
     "iap":false,
     "tabs":[
       {
-        "title":"M2 Telecom",
+        "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://m2telecomunicacao.wordpress.com/feed/"
+          "http://feeds.feedburner.com/AndroidPolice"
+        ]
+      },
+      {
+        "title":"Podcast",
+        "provider":"rss",
+        "arguments":[
+          "http://feeds.nature.com/nature/podcast/current"
         ]
       }
     ]
@@ -109,6 +85,52 @@
         "provider":"woocommerce",
         "arguments":[
           "", "https://image.ibb.co/bV2yaw/Woo_Header.png"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Orders",
+    "drawable":"",
+    "submenu":"WooCommerce",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Orders",
+        "provider":"woocommerce",
+        "arguments":[
+          "orders"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Tumblr",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Tumblr",
+        "provider":"tumblr",
+        "arguments":[
+          "androidbackgrounds"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Flickr",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Flickr",
+        "provider":"flickr",
+        "arguments":[
+          "72157657805551378",
+          "photoset"
         ]
       }
     ]
@@ -183,7 +205,7 @@
         "title":"Youtube Live",
         "provider":"youtube",
         "arguments":[
-          "UCMwePVHRpDdfeUcwtDZu2Dw",
+          "UCoMdktPbSTixAyNGwb-UYkQ",
           "live"
         ]
       },
@@ -191,7 +213,7 @@
         "title":"Youtube Playlist",
         "provider":"youtube",
         "arguments":[
-          "PLDfKAXSi6kUakvzXfiA0DdSl-OzBi2fVt",
+          "UU7V6hW6xqPAiUfataAZZtWA",
           "playlist"
         ]
       },
@@ -199,11 +221,42 @@
         "title":"Youtube Channel",
         "provider":"youtube",
         "arguments":[
-          "UC5nc_ZtjKW1htCVZVRxlQAQ",
+          "UCoMdktPbSTixAyNGwb-UYkQ",
           "channel"
         ]
       }
     ]
+  },
+  {
+    "title":"Pinterest",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Pinterest",
+        "provider":"pinterest",
+        "arguments":[
+          "515451188540423446"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.google.com"
+        ]
+      }
+    ]
+
   },
   {
     "title":"Categories",
@@ -216,6 +269,31 @@
         "provider":"overview",
         "arguments":[
           "overview.json"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Wordpress Other",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WP JSON & Disqus",
+        "provider":"wordpress",
+        "arguments":[
+          "http://androidpolice.com",
+          "",
+          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
+        ]
+      },
+      {
+        "title":"WP REST",
+        "provider":"wordpress",
+        "arguments":[
+          "https://wordpress.org/news/wp-json/wp/v2/",
+          ""
         ]
       }
     ]
