@@ -292,9 +292,9 @@
         "title":"WP JSON & Disqus",
         "provider":"wordpress",
         "arguments":[
-          "http://androidpolice.com",
+          "https://meuphilim.000webhostapp.com",
           "",
-          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
+          "http://androidpolice.disqus.com/;androidpolice;%d https://meuphilim.000webhostapp.com/?p=%d"
         ]
       },
       {
