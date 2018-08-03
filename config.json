@@ -12,30 +12,6 @@
           "https://meuphilim.000webhostapp.com/"
         ]
       },
-      {
-        "title":"Themes",
-        "provider":"wordpress",
-        "arguments":[
-          "br.wordpress.com",
-          "produtos"
-        ]
-      },
-      {
-        "title":"Security",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "security"
-        ]
-      },
-      {
-        "title":"Events",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "events"
-        ]
-      }
     ]
   },
   {
