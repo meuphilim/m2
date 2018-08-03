@@ -86,7 +86,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://feeds.feedburner.com/AndroidPolice"
+          "https://m2telecomunicacao.wordpress.com/feed/"
         ]
       },
       {
