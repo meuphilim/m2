@@ -7,9 +7,9 @@
     "tabs":[
       {
         "title":"Recent Posts",
-        "provider":"wordpress",
+        "provider":"webview",
         "arguments":[
-          "m2telecomunicacao.wordpress.com"
+          "https://meuphilim.github.io/mobile/"
         ]
       }
       {
