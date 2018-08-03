@@ -2,7 +2,7 @@
     {
     "title":"Wordpress Blogs",
     "drawable":"",
-    "submenu":"",
+    "submenu":"Principal",
     "iap":false,
     "tabs":[
       {
@@ -11,7 +11,16 @@
         "arguments":[
           "m2telecomunicacao.wordpress.com"
         ]
+      };
+      {
+        "title":"Recent Posts",
+        "provider":"wordpress",
+        "arguments":[
+          "m2telecomunicacao.wordpress.com"
+        ]
       }
+    ]
+  },
     ]
   },
   {
