@@ -83,14 +83,14 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
+        "title":"M2 Telecom",
         "provider":"rss",
         "arguments":[
           "https://m2telecomunicacao.wordpress.com/feed/"
         ]
       },
       {
-        "title":"Podcast",
+        "title":"MrSuisideSeep",
         "provider":"rss",
         "arguments":[
           "https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ"
@@ -109,52 +109,6 @@
         "provider":"woocommerce",
         "arguments":[
           "", "https://image.ibb.co/bV2yaw/Woo_Header.png"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Orders",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Orders",
-        "provider":"woocommerce",
-        "arguments":[
-          "orders"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Tumblr",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Tumblr",
-        "provider":"tumblr",
-        "arguments":[
-          "androidbackgrounds"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Flickr",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Flickr",
-        "provider":"flickr",
-        "arguments":[
-          "72157657805551378",
-          "photoset"
         ]
       }
     ]
@@ -229,7 +183,7 @@
         "title":"Youtube Live",
         "provider":"youtube",
         "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "4_vBl_VXaa8",
           "live"
         ]
       },
@@ -237,7 +191,7 @@
         "title":"Youtube Playlist",
         "provider":"youtube",
         "arguments":[
-          "UU7V6hW6xqPAiUfataAZZtWA",
+          "PLDfKAXSi6kUakvzXfiA0DdSl-OzBi2fVt",
           "playlist"
         ]
       },
@@ -245,42 +199,11 @@
         "title":"Youtube Channel",
         "provider":"youtube",
         "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "UC5nc_ZtjKW1htCVZVRxlQAQ",
           "channel"
         ]
       }
     ]
-  },
-  {
-    "title":"Pinterest",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Pinterest",
-        "provider":"pinterest",
-        "arguments":[
-          "515451188540423446"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
-        ]
-      }
-    ]
-
   },
   {
     "title":"Categories",
@@ -293,31 +216,6 @@
         "provider":"overview",
         "arguments":[
           "overview.json"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Wordpress Other",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WP JSON & Disqus",
-        "provider":"wordpress",
-        "arguments":[
-          "https://meuphilim.000webhostapp.com",
-          "",
-          "http://androidpolice.disqus.com/;androidpolice;%d https://meuphilim.000webhostapp.com/?p=%d"
-        ]
-      },
-      {
-        "title":"WP REST",
-        "provider":"wordpress",
-        "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
         ]
       }
     ]
