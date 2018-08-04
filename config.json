@@ -4,11 +4,11 @@
     "submenu":"Clientes",
     "iap":false,
     "tabs":[ {
-        "title": "Inicial", "provider": "webview", "arguments": ["http://bit.ly/2M7WUKE"]
+        "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
     }
     ,
     {
-        "title": "Assinante", "provider": "webview", "arguments": ["http://bit.ly/2vfkOu2"]
+        "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
     }
     ]
 }
@@ -20,7 +20,7 @@
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[ {
-        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["http://bit.ly/2M1JjEo"]
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
     }
     ]
 }
@@ -32,7 +32,7 @@
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[ {
-        "title": "TV Brasil", "provider": "stream", "arguments": ["http://bit.ly/2OHcwms"]
+        "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
     }
     ]
 }
@@ -44,7 +44,7 @@
     "submenu":"Noticias",
     "iap":false,
     "tabs":[ {
-        "title": "Revista Época", "provider": "rss", "arguments": ["https://glo.bo/2OK11ej"]
+        "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
     }
     ]
 }
@@ -56,7 +56,7 @@
     "submenu":"Ferramentas",
     "iap":false,
     "tabs":[ {
-        "title": "Speed Test", "provider": "webview", "arguments": ["http://bit.ly/2Oblh7f"]
+        "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
     }
     ]
 }
@@ -116,7 +116,7 @@
     "submenu":"Outros",
     "iap":false,
     "tabs":[ {
-        "title": "Categories", "provider": "overview", "arguments": ["http://bit.ly/2OHetQ3"]
+        "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
     }
     ]
 }
@@ -141,6 +141,30 @@
     "iap":false,
     "tabs":[ {
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Telefone",
+    "drawable":"",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ {
+        "title": "6732553827", "provider": "custom", "arguments": [ "tel:06732553827", "url"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Whatsapp",
+    "drawable":"",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ {
+        "title": "", "provider": "custom", "arguments": [ "whatsapp:+556732553827", "url"]
     }
     ]
 }
