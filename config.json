@@ -1,53 +1,65 @@
 [
   {
-    "title":"Wordpress Blogs",
-    "drawable":"",
-    "submenu":"",
+    "title":"Principal",
+    "drawable":"ic_m2.png",
+    "submenu":"Clientes",
     "iap":false,
     "tabs":[
       {
-        "title":"Recent Posts",
+        "title":"Principal",
         "provider":"webview",
         "arguments":[
           "https://meuphilim.github.io/mobile/"
         ]
-      },
-      {
-        "title":"Themes",
-        "provider":"wordpress",
-        "arguments":[
-          "m2telecomunicacao.wordpress.com",
-          "Blog"
-        ]
-      },
+      }
     ]
   },
+	
+
   {
-    "title":"Radio 3FM",
-    "drawable":"",
-    "submenu":"",
+    "title":"Central do Assinante",
+    "drawable":"ic_account_box.png",
+    "submenu":"Clientes",
     "iap":false,
     "tabs":[
       {
-        "title":"Radio 3FM",
+        "title":"Central do Assinante",
+        "provider":"webview",
+        "arguments":[
+          "http://177.202.43.19/index.php?tipo=minhaconta"
+        ]
+      }
+    ]
+  },
+  
+  
+  
+  {
+    "title":"RádioWeb Cidade FM",
+    "drawable":"ic_radio.png",
+    "submenu":"Entretenimento",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"RádioWeb Cidade FM",
         "provider":"radio",
         "arguments":[
-          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=99226864"
+          "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
         ]
       }
     ]
   },
   {
-    "title":"Live TV ABC",
-    "drawable":"",
-    "submenu":"",
+    "title":"GLOOB HD",
+    "drawable":"ic_personal_video.png",
+    "submenu":"Entretenimento",
     "iap":false,
     "tabs":[
       {
-        "title":"Live TV ABC",
+        "title":"GLOOB HD",
         "provider":"stream",
         "arguments":[
-          "http://www.streambox.fr/playlists/test_001/stream.m3u8"
+          "http://lista.digitalgroup.me:80/live/paulo7563/paulo7563/5086.m3u8"
         ]
       }
     ]
@@ -75,36 +87,6 @@
     ]
   },
   {
-    "title":"Home",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Shop",
-        "provider":"woocommerce",
-        "arguments":[
-          "", "https://image.ibb.co/bV2yaw/Woo_Header.png"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Orders",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Orders",
-        "provider":"woocommerce",
-        "arguments":[
-          "orders"
-        ]
-      }
-    ]
-  },
-  {
     "title":"Tumblr",
     "drawable":"",
     "submenu":"Social Media",
@@ -115,22 +97,6 @@
         "provider":"tumblr",
         "arguments":[
           "androidbackgrounds"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Flickr",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Flickr",
-        "provider":"flickr",
-        "arguments":[
-          "72157657805551378",
-          "photoset"
         ]
       }
     ]
@@ -160,22 +126,7 @@
         "title":"Twitter",
         "provider":"twitter",
         "arguments":[
-          "Android"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Instagram",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Instagram",
-        "provider":"instagram",
-        "arguments":[
-          "2948597263"
+          "JMeuphilim"
         ]
       }
     ]
@@ -190,7 +141,7 @@
         "title":"Facebook",
         "provider":"facebook",
         "arguments":[
-          "104958162837"
+          "995722327141587"
         ]
       }
     ]
@@ -205,23 +156,31 @@
         "title":"Youtube Live",
         "provider":"youtube",
         "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "UC14ap4T608Zz_Mz4eezhIqw",
           "live"
         ]
       },
       {
-        "title":"Youtube Playlist",
+        "title":"Melhor do Sertanejo",
         "provider":"youtube",
         "arguments":[
-          "UU7V6hW6xqPAiUfataAZZtWA",
+          "PLPKT8Jkrumn-BBswkAIW2vcjoIaf4Z_Fn",
           "playlist"
         ]
       },
       {
-        "title":"Youtube Channel",
+        "title":"Balada M2",
         "provider":"youtube",
         "arguments":[
-          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "PLJ7FSG1cmufXN7QE88Qt6XjcTsB_rs-hi",
+          "playlist"
+        ]
+      },
+      {
+        "title":"Mr Suicide Seep",
+        "provider":"youtube",
+        "arguments":[
+          "UC5nc_ZtjKW1htCVZVRxlQAQ",
           "channel"
         ]
       }
@@ -243,22 +202,6 @@
     ]
   },
   {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
-        ]
-      }
-    ]
-
-  },
-  {
     "title":"Categories",
     "drawable":"",
     "submenu":"Other",
@@ -269,31 +212,6 @@
         "provider":"overview",
         "arguments":[
           "overview.json"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Wordpress Other",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WP JSON & Disqus",
-        "provider":"wordpress",
-        "arguments":[
-          "http://androidpolice.com",
-          "",
-          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
-        ]
-      },
-      {
-        "title":"WP REST",
-        "provider":"wordpress",
-        "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
         ]
       }
     ]
@@ -323,7 +241,8 @@
         "title":"",
         "provider":"custom",
         "arguments":[
-          "com.sherdle.universal.SettingsFragment", "fragment"
+          "com.sherdle.universal.SettingsFragment", 
+		   "fragment"
         ]
       }
     ]
