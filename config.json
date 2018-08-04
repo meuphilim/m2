@@ -142,16 +142,5 @@
         "title": "Telefone", "provider": "url", "arguments": ["06732553827"]
     }
     ]
-},
-{
-    "title":"Contato",
-    "drawable":"ic_whatsapp",
-    "submenu":"Contato",
-    "iap":false,
-    "tabs":[ 
-    {
-        "title": "Assinante",	"provider": "url", "arguments": ["http://bit.ly/2vAbW1b"]
-    }
-    ]
 }
 ]
