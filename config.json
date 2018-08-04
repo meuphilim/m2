@@ -1,7 +1,7 @@
 [
   {
-    "title":"Home",
-    "drawable":"ic_home",
+    "title":"Inicio",
+    "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
@@ -52,54 +52,39 @@
     ]
   },
   {
-    "title":"Atualizações",
+    "title":"Noticias",
     "drawable":"ic_rss_feed",
-    "submenu":"",
+    "submenu":"Noticias",
     "iap":false,
     "tabs":[
       {
-        "title":"Atualizações",
+        "title":"Revista Época",
         "provider":"rss",
         "arguments":[
-          "https://www.youtube.com/feeds/videos.xml?channel_id=UC5nc_ZtjKW1htCVZVRxlQAQ"
+          "http://revistaepoca.globo.com/rss/ultimas/feed.xml"
         ]
       }
     ]
   },
   {
-    "title":"Tumblr",
-    "drawable":"",
-    "submenu":"Social Media",
+    "title":"Ferramentas",
+    "drawable":"ic_network_check",
+    "submenu":"Ferramentas",
     "iap":false,
     "tabs":[
       {
-        "title":"Tumblr",
-        "provider":"tumblr",
+        "title":"Speed Test",
+        "provider":"webview",
         "arguments":[
-          "androidbackgrounds"
+          "http://m2tel.speedtestcustom.com"
         ]
-      }
-    ]
-  },
-  {
-    "title":"SoundCloud",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Playlist",
-        "provider":"soundcloud",
-        "arguments":[
-          "212094702", "playlist"
-        ]
-      }
+      },
     ]
   },
   {
     "title":"Twitter",
-    "drawable":"",
-    "submenu":"Social Media",
+    "drawable":"ic_twitter_vector_18",
+    "submenu":"Media Social",
     "iap":false,
     "tabs":[
       {
@@ -113,8 +98,8 @@
   },
   {
     "title":"Facebook",
-    "drawable":"",
-    "submenu":"Social Media",
+    "drawable":"ic_facebook",
+    "submenu":"Media Social",
     "iap":false,
     "tabs":[
       {
@@ -128,8 +113,8 @@
   },
   {
     "title":"Youtube",
-    "drawable":"ic_ondemand_video",
-    "submenu":"Social Media",
+    "drawable":"ic_857735_video_512x512",
+    "submenu":"Media Social",
     "iap":false,
     "tabs":[
       {
@@ -167,39 +152,24 @@
     ]
   },
   {
-    "title":"Pinterest",
+    "title":"Categorias",
     "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Pinterest",
-        "provider":"pinterest",
-        "arguments":[
-          "515451188540423446"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Categories",
-    "drawable":"",
-    "submenu":"Other",
+    "submenu":"Outros",
     "iap":false,
     "tabs":[
       {
         "title":"Categories",
         "provider":"overview",
         "arguments":[
-          "overview.json"
+          "https://meuphilim.github.io/m2/overview.json"
         ]
       }
     ]
   },
   {
-    "title":"Location",
+    "title":"Teste Localização",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"Outros",
     "iap":false,
     "tabs":[
       {
@@ -212,9 +182,9 @@
     ]
   },
   {
-    "title":"Custom",
+    "title":"Teste Atvidade",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"Outros",
     "iap":false,
     "tabs":[
       {
@@ -226,5 +196,5 @@
         ]
       }
     ]
-  }
+  },
 ]
