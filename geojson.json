@@ -1,16 +1,35 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.48788116773238,
-          -21.127045651802728
-        ]
+  "type": "Feature",
+  "properties": {
+    "title": "Institut für Sexualwissenschaft",
+    "series": "Spring 2018",
+    "tour": "movie locations",
+    "marker-size": "medium",
+    "marker-color": "#DF013A",
+    "marker-symbol": "star",
+    "images": [
+      {
+        "format": "Image",
+        "url": "https://68.media.tumblr.com/74bee20ab9104bde278ee7fe8b37efc2/tumblr_omtgsmtCSy1qfbkkxo1_1280.jpg",
+        "description": "The Institut für Sexualwissenschaft, founded by Magnus Hirschfeld in 1919, served as a site of research into homosexuality and the burgeoning queer culture of Weimar Germany until it destroyed by the Nazi government in 1933. (Holmesguy/Tumblr)"
       },
-      "properties": {}
-    }
-  ]
+      {
+      	"format": "Image",
+      	"url": "http://1.bp.blogspot.com/-oFwYiDZa3WA/UZY1MXdshpI/AAAAAAAAhhU/9lCkOnvaGoQ/s320/Hirschfeld.jpg",
+      	"description": "Magnus Hirschfeld (1868-1935), A German Jewish physician and sexologist, devoted himself to the study of homosexuality and the transgender community, and was an prominent voice in LGBTQ activism in his time. His research focused on uncovering the biological aspects of sexual/gender identity, and hoped to produce scientific evidence to combat the stigmatism faced by the LGBTQ community. (Gay Influence)"
+      },
+      {
+"format": "YouTube",
+        "url": "https://www.youtube.com/embed/H3PBJmWWwGI",
+        "description": "Hirshfeld co-wrote the 1919 film, which dramatized the struggles faced by gay men in the Weimar era. The entire film is online--relevant scenes filmed at the Institut für Sexualwissenschaft begin at 36:50."
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+    13.362066,
+          52.518658
+    ]
+  }
 }
