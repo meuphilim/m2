@@ -1,19 +1,26 @@
-[ {
-    "title":"Inicial",
-    "drawable":"ic_account_box",
+[ 
+      {
+    "title":"Principal",
+    "drawable":"ic_m2.png",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[ {
-        "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
-    }
-    ,
-    {
-        "title": "Central do Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
-    }
+    "tabs":[
+      {
+        "title":"Principal",
+        "provider":"webview",
+        "arguments":[
+          "https://meuphilim.github.io/m2/"
+        ]
+      },
+	  {
+        "title":"Central do Assinante",
+        "provider":"webview",
+        "arguments":[
+          "http://177.202.43.19/index.php?tipo=minhaconta"
+        ]
+      }
     ]
-}
-
-,
+  },
 {
     "title":"Entretenimento",
     "drawable":"ic_radio",
