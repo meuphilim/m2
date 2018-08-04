@@ -6,10 +6,10 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Inicial", 	"provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
+        "title": "Inicial", 	"provider": "webview", "arguments": ["https://bit.ly/2n9SFzV"]
     },
 	{
-        "title": "Assinante",	"provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
+        "title": "Assinante",	"provider": "webview", "arguments": ["https://bit.ly/2M2oadf"]
     }
     ]
 },
@@ -20,7 +20,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://bit.ly/2M2nVPn"]
     }
     ]
 },
@@ -31,7 +31,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
+        "title": "TV Brasil", "provider": "stream", "arguments": ["https://bit.ly/2OIeQcY"]
     }
     ]
 },
@@ -42,7 +42,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
+        "title": "Revista Época", "provider": "rss", "arguments": ["https://glo.bo/2M3Mewu"]
     }
     ]
 },
@@ -53,7 +53,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
+        "title": "Speed Test", "provider": "webview", "arguments": ["https://bit.ly/2MgnIVH"]
     }
     ]
 },
@@ -106,7 +106,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
+        "title": "Categories", "provider": "overview", "arguments": ["https://bit.ly/2OFTnlb"]
     }
     ]
 },
@@ -117,7 +117,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Maps", "provider": "maps", "arguments": ["https://www.mapbox.com/help/data/stations.geojson"]
+        "title": "Maps", "provider": "maps", "arguments": ["https://bit.ly/2OJCENK"]
     }
     ]
 },
@@ -129,6 +129,28 @@
     "tabs":[ 
     {
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
+    }
+    ]
+},
+{
+    "title":"Contato",
+    "drawable":"ic_phone",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ 
+    {
+        "title": "Telefone", "provider": "url", "arguments": ["06732553827"]
+    }
+    ]
+},
+{
+    "title":"Contato",
+    "drawable":"ic_phone",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ 
+    {
+        "title": "Assinante",	"provider": "url", "arguments": ["http://bit.ly/2vAbW1b"]
     }
     ]
 }
