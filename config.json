@@ -148,8 +148,8 @@
 ,
 {
     "title":"Telefone",
-    "drawable":"",
-    "submenu":"Outros",
+    "drawable":"ic_local_phone",
+    "submenu":"Contato",
     "iap":false,
     "tabs":[ {
         "title": "6732553827", "provider": "custom", "arguments": [ "tel:06732553827", "url"]
@@ -160,8 +160,8 @@
 ,
 {
     "title":"Whatsapp",
-    "drawable":"",
-    "submenu":"Outros",
+    "drawable":"ic_174879",
+    "submenu":"Contato",
     "iap":false,
     "tabs":[ {
         "title": "", "provider": "custom", "arguments": [ "whatsapp:+556732553827", "url"]
