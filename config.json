@@ -164,7 +164,7 @@
     "submenu":"Contato",
     "iap":false,
     "tabs":[ {
-        "title": "", "provider": "custom", "arguments": [ "whatsapp://send?text=Ola! message&phone=+556732553827", "url"]
+        "title": "", "provider": "custom", "arguments": [ "whatsapp://send?text=Ola!&phone=+556732553827", "url"]
     }
     ]
 },
