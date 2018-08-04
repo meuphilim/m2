@@ -1,12 +1,12 @@
 [
   {
-    "title":"Principal",
-    "drawable":"ic_m2",
+    "title":"Home",
+    "drawable":"ic_home",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
       {
-        "title":"Principal",
+        "title":"Pagina Inicial",
         "provider":"webview",
         "arguments":[
           "https://meuphilim.github.io/mobile/"
@@ -24,7 +24,7 @@
   {
     "title":"Entretenimento",
     "drawable":"ic_radio",
-    "submenu":"Entretenimento",
+    "submenu":"RádioWeb Cidade FM",
     "iap":false,
     "tabs":[
       {
@@ -33,18 +33,11 @@
         "arguments":[
           "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
         ]
-      },
-	  {
-        "title":"TV Brasil",
-        "provider":"stream",
-        "arguments":[
-          "http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"
-        ]
       }
     ]
   },
   {
-    "title":"GLOOB HD",
+    "title":"TV Online",
     "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
@@ -59,8 +52,8 @@
     ]
   },
   {
-    "title":"RSS",
-    "drawable":"",
+    "title":"Atualizações",
+    "drawable":"ic_rss_feed",
     "submenu":"",
     "iap":false,
     "tabs":[
@@ -135,7 +128,7 @@
   },
   {
     "title":"Youtube",
-    "drawable":"",
+    "drawable":"ic_ondemand_video",
     "submenu":"Social Media",
     "iap":false,
     "tabs":[
