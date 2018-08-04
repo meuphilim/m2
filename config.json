@@ -1,6 +1,6 @@
 [
   {
-    "title":"Inicio",
+    "title":"Pagina Inicial",
     "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
