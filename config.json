@@ -131,16 +131,5 @@
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
     }
     ]
-},
-{
-    "title":"Contato",
-    "drawable":"ic_phone",
-    "submenu":"Contato",
-    "iap":false,
-    "tabs":[ 
-    {
-        "title": "Telefone", "provider": "url", "arguments": ["06732553827"]
-    }
-    ]
 }
 ]
