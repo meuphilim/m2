@@ -1,200 +1,149 @@
-[
-  {
+[ {
     "title":"Inicial",
     "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Inicial",
-        "provider":"webview",
-        "arguments":[
-          "https://meuphilim.github.io/mobile/"
-        ]
-      },
-	  {
-        "title":"Central do Assinante",
-        "provider":"webview",
-        "arguments":[
-          "http://177.202.43.19/index.php?tipo=minhaconta"
-        ]
-      }
+    "tabs":[ {
+        "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
+    }
+    ,
+    {
+        "title": "Central do Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Entretenimento",
     "drawable":"ic_radio",
     "submenu":"RádioWeb Cidade FM",
     "iap":false,
-    "tabs":[
-      {
-        "title":"RádioWeb Cidade FM",
-        "provider":"radio",
-        "arguments":[
-          "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
-        ]
-      }
+    "tabs":[ {
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"TV Online",
     "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[
-      {
-        "title":"TV Brasil",
-        "provider":"stream",
-        "arguments":[
-          "http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"
-        ]
-      }
+    "tabs":[ {
+        "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Noticias",
     "drawable":"ic_rss_feed",
     "submenu":"Noticias",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Revista Época",
-        "provider":"rss",
-        "arguments":[
-          "http://revistaepoca.globo.com/rss/ultimas/feed.xml"
-        ]
-      }
+    "tabs":[ {
+        "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Ferramentas",
     "drawable":"ic_network_check",
     "submenu":"Ferramentas",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Speed Test",
-        "provider":"webview",
-        "arguments":[
-          "http://m2tel.speedtestcustom.com"
-        ]
-      }
+    "tabs":[ {
+        "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Twitter",
     "drawable":"ic_twitter_vector_18",
     "submenu":"Media Social",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Twitter",
-        "provider":"twitter",
-        "arguments":[
-          "JMeuphilim"
-        ]
-      }
+    "tabs":[ {
+        "title": "Twitter", "provider": "twitter", "arguments": ["JMeuphilim"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Facebook",
     "drawable":"ic_facebook",
     "submenu":"Media Social",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Facebook",
-        "provider":"facebook",
-        "arguments":[
-          "995722327141587"
-        ]
-      }
+    "tabs":[ {
+        "title": "Facebook", "provider": "facebook", "arguments": ["995722327141587"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Youtube",
     "drawable":"ic_857735_video_512x512",
     "submenu":"Media Social",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Youtube Live",
-        "provider":"youtube",
-        "arguments":[
-          "UC14ap4T608Zz_Mz4eezhIqw",
-          "live"
-        ]
-      },
-      {
-        "title":"Melhor do Sertanejo",
-        "provider":"youtube",
-        "arguments":[
-          "PLPKT8Jkrumn-BBswkAIW2vcjoIaf4Z_Fn",
-          "playlist"
-        ]
-      },
-      {
-        "title":"Balada M2",
-        "provider":"youtube",
-        "arguments":[
-          "PLJ7FSG1cmufXN7QE88Qt6XjcTsB_rs-hi",
-          "playlist"
-        ]
-      },
-      {
-        "title":"Mr Suicide Seep",
-        "provider":"youtube",
-        "arguments":[
-          "UC5nc_ZtjKW1htCVZVRxlQAQ",
-          "channel"
-        ]
-      }
+    "tabs":[ {
+        "title": "Youtube Live", "provider": "youtube", "arguments": ["UC14ap4T608Zz_Mz4eezhIqw", "live"]
+    }
+    ,
+    {
+        "title": "Melhor do Sertanejo", "provider": "youtube", "arguments": ["PLPKT8Jkrumn-BBswkAIW2vcjoIaf4Z_Fn", "playlist"]
+    }
+    ,
+    {
+        "title": "Balada M2", "provider": "youtube", "arguments": ["PLJ7FSG1cmufXN7QE88Qt6XjcTsB_rs-hi", "playlist"]
+    }
+    ,
+    {
+        "title": "Mr Suicide Seep", "provider": "youtube", "arguments": ["UC5nc_ZtjKW1htCVZVRxlQAQ", "channel"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Categorias",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[
-      {
-        "title":"Categories",
-        "provider":"overview",
-        "arguments":[
-          "https://meuphilim.github.io/m2/overview.json"
-        ]
-      }
+    "tabs":[ {
+        "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Teste Localização",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[
-      {
-        "title":"",
-        "provider":"maps",
-        "arguments":[
-          "https://www.mapbox.com/help/data/stations.geojson"
-        ]
-      }
+    "tabs":[ {
+        "title": "", "provider": "maps", "arguments": ["https://www.mapbox.com/help/data/stations.geojson"]
+    }
     ]
-  },
-  {
+}
+
+,
+{
     "title":"Teste Atvidade",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[
-      {
-        "title":"",
-        "provider":"custom",
-        "arguments":[
-          "com.sherdle.universal.SettingsFragment", 
-		   "fragment"
-        ]
-      }
+    "tabs":[ {
+        "title": "", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
+    }
     ]
-  },
+}
+
+,
 ]
