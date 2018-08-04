@@ -1,12 +1,12 @@
 [
   {
-    "title":"Pagina Inicial",
+    "title":"Inicial",
     "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
       {
-        "title":"Pagina Inicial",
+        "title":"Inicial",
         "provider":"webview",
         "arguments":[
           "https://meuphilim.github.io/mobile/"
