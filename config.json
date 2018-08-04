@@ -1,7 +1,7 @@
 [
   {
     "title":"Principal",
-    "drawable":"ic_m2.png",
+    "drawable":"ic_m2",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "title":"RádioWeb Cidade FM",
+    "title":"Entretenimento",
     "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
@@ -32,6 +32,13 @@
         "provider":"radio",
         "arguments":[
           "https://www.radios.com.br/players/listen-radio.m3u?radio=70731"
+        ]
+      },
+	  {
+        "title":"TV Brasil",
+        "provider":"stream",
+        "arguments":[
+          "http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"
         ]
       }
     ]
