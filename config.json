@@ -164,7 +164,7 @@
     "submenu":"Contato",
     "iap":false,
     "tabs":[ {
-        "title": "", "provider": "custom", "arguments": [ "whatsapp:+556732553827", "url"]
+        "title": "", "provider": "custom", "arguments": [ "whatsapp:556732553827", "url"]
     }
     ]
 }
