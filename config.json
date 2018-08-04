@@ -1,135 +1,148 @@
-[ 
-{
+[ {
     "title":"Inicial",
     "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[ 
+    "tabs":[ {
+        "title": "Inicial", "provider": "webview", "arguments": ["http://bit.ly/2M7WUKE"]
+    }
+    ,
     {
-        "title": "Inicial", 	"provider": "webview", "arguments": ["https://bit.ly/2n9SFzV"]
-    },
-	{
-        "title": "Assinante",	"provider": "webview", "arguments": ["https://bit.ly/2M2oadf"]
+        "title": "Assinante", "provider": "webview", "arguments": ["http://bit.ly/2vfkOu2"]
     }
     ]
-},
+}
+
+,
 {
     "title":"RádioWeb Cidade FM",
     "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://bit.ly/2M2nVPn"]
+    "tabs":[ {
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["http://bit.ly/2M1JjEo"]
     }
     ]
-},
+}
+
+,
 {
     "title":"TV Online",
     "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "TV Brasil", "provider": "stream", "arguments": ["https://bit.ly/2OIeQcY"]
+    "tabs":[ {
+        "title": "TV Brasil", "provider": "stream", "arguments": ["http://bit.ly/2OHcwms"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Noticias",
     "drawable":"ic_rss_feed",
     "submenu":"Noticias",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "Revista Época", "provider": "rss", "arguments": ["https://glo.bo/2M3Mewu"]
+    "tabs":[ {
+        "title": "Revista Época", "provider": "rss", "arguments": ["https://glo.bo/2OK11ej"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Ferramentas",
     "drawable":"ic_network_check",
     "submenu":"Ferramentas",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "Speed Test", "provider": "webview", "arguments": ["https://bit.ly/2MgnIVH"]
+    "tabs":[ {
+        "title": "Speed Test", "provider": "webview", "arguments": ["http://bit.ly/2Oblh7f"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Twitter",
     "drawable":"ic_twitter_vector_18",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ 
-    {
+    "tabs":[ {
         "title": "Twitter", "provider": "twitter", "arguments": ["JMeuphilim"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Facebook",
     "drawable":"ic_facebook",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ 
-    {
+    "tabs":[ {
         "title": "Facebook", "provider": "facebook", "arguments": ["995722327141587"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Youtube",
     "drawable":"ic_857735_video_512x512",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ 
-    {
+    "tabs":[ {
         "title": "Youtube Live", "provider": "youtube", "arguments": ["UC14ap4T608Zz_Mz4eezhIqw", "live"]
-    },
+    }
+    ,
     {
         "title": "Melhor do Sertanejo", "provider": "youtube", "arguments": ["PLPKT8Jkrumn-BBswkAIW2vcjoIaf4Z_Fn", "playlist"]
-    },
+    }
+    ,
     {
         "title": "Balada M2", "provider": "youtube", "arguments": ["PLJ7FSG1cmufXN7QE88Qt6XjcTsB_rs-hi", "playlist"]
-    },
+    }
+    ,
     {
         "title": "Mr Suicide Seep", "provider": "youtube", "arguments": ["UC5nc_ZtjKW1htCVZVRxlQAQ", "channel"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Categorias",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "Categories", "provider": "overview", "arguments": ["https://bit.ly/2OFTnlb"]
+    "tabs":[ {
+        "title": "Categories", "provider": "overview", "arguments": ["http://bit.ly/2OHetQ3"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Teste Localização",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "Maps", "provider": "maps", "arguments": ["https://bit.ly/2OJCENK"]
+    "tabs":[ {
+        "title": "Maps", "provider": "maps", "arguments": ["https://www.mapbox.com/help/data/stations.geojson"]
     }
     ]
-},
+}
+
+,
 {
     "title":"Teste Atvidade",
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ 
-    {
+    "tabs":[ {
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
     }
     ]
 }
+
 ]
