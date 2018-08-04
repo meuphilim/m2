@@ -135,7 +135,7 @@
 {
     "title":"Contato",
     "drawable":"ic_phone",
-    "submenu":"Outros",
+    "submenu":"Contato",
     "iap":false,
     "tabs":[ 
     {
@@ -145,8 +145,8 @@
 },
 {
     "title":"Contato",
-    "drawable":"ic_phone",
-    "submenu":"Outros",
+    "drawable":"ic_whatsapp",
+    "submenu":"Contato",
     "iap":false,
     "tabs":[ 
     {
