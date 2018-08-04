@@ -11,18 +11,8 @@
         "arguments":[
           "https://meuphilim.github.io/mobile/"
         ]
-      }
-    ]
-  },
-	
-
-  {
-    "title":"Central do Assinante",
-    "drawable":"ic_account_box.png",
-    "submenu":"Clientes",
-    "iap":false,
-    "tabs":[
-      {
+      },
+	  {
         "title":"Central do Assinante",
         "provider":"webview",
         "arguments":[
@@ -31,12 +21,9 @@
       }
     ]
   },
-  
-  
-  
   {
     "title":"RádioWeb Cidade FM",
-    "drawable":"ic_radio.png",
+    "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[
@@ -51,7 +38,7 @@
   },
   {
     "title":"GLOOB HD",
-    "drawable":"ic_personal_video.png",
+    "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[
@@ -59,7 +46,7 @@
         "title":"GLOOB HD",
         "provider":"stream",
         "arguments":[
-          "http://lista.digitalgroup.me:80/live/paulo7563/paulo7563/5086.m3u8"
+          "http://apk.goo.bo:8081/live/17/playlist.m3u8"
         ]
       }
     ]
@@ -71,17 +58,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
+        "title":"Atualizações",
         "provider":"rss",
         "arguments":[
-          "http://feeds.feedburner.com/AndroidPolice"
-        ]
-      },
-      {
-        "title":"Podcast",
-        "provider":"rss",
-        "arguments":[
-          "http://feeds.nature.com/nature/podcast/current"
+          "https://www.youtube.com/feeds/videos.xml?channel_id=UC5nc_ZtjKW1htCVZVRxlQAQ"
         ]
       }
     ]
