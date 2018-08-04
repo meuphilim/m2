@@ -164,9 +164,24 @@
     "submenu":"Contato",
     "iap":false,
     "tabs":[ {
-        "title": "", "provider": "custom", "arguments": [ "whatsapp:556732553827", "url"]
+        "title": "", "provider": "custom", "arguments": [ "whatsapp://send?text=Ola! message&phone=+556732553827", "url"]
     }
     ]
-}
+},
+   {
+    "title":"Locais",
+    "drawable":"",
+    "submenu":"Contato",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"maps",
+        "arguments":[
+          "https://meuphilim.github.io/m2/geojson.json"
+        ]
+      }
+    ]
+  }
 
 ]
