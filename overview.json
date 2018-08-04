@@ -1,0 +1,43 @@
+[
+  {
+    "title":"Curso Fibra Optica FiberScool",
+    "provider":"youtube",
+    "image": "https://picsum.photos/720/480/?random",
+    "arguments":[
+      "PLdSuBovgL_o4R4qZ8_jksO782tgv4EpXJ", "playlist"
+    ]
+  },
+  {
+    "title":"Historias Inspiradoras",
+    "provider":"youtube",
+    "image":"https://picsum.photos/720/480/?random",
+    "arguments":[
+      "PLJeLCsKkobrIS8UtXt92zEwXOoQFxR0r1", "playlist"
+    ]
+  },
+  {
+    "title":"Para Relaxar",
+    "provider":"youtube",
+    "image":"https://picsum.photos/720/480/?random",
+    "arguments":[
+      "PLMI0S_5CL3WnBxAQRIOH5B89TduNfNdF_", "playlist"
+    ]
+  },
+  {
+    "title":"Game Overload",
+    "provider":"youtube",
+    "image":"https://picsum.photos/720/480/?random",
+    "arguments":[
+      "UCWKtHaeXVzUscYGcm0hEunw", "channel"
+    ]
+  },
+  {
+    "title":"Estreias 2018",
+    "provider":"youtube",
+    "image":"https://picsum.photos/720/480/?random",
+    "arguments":[
+      "PLxIq21LusxX6ZNRMxsEow4REx1AUkj6gE", "playlist"
+    ]
+  }
+
+]
