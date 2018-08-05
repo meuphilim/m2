@@ -12,7 +12,7 @@
 
 ,
 {
-    "title":"Inicial",
+    "title":"Central do Cliente",
     "drawable":"ic_account_box",
     "submenu":"Clientes",
     "iap":false,
