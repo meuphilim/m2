@@ -90,7 +90,7 @@
     "submenu":"Midia Social",
     "iap":false,
     "tabs":[ {
-        "title": "Facebook", "provider": "facebook", "arguments": ["995722327141587"]
+        "title": "Facebook", "provider": "facebook", "arguments": ["m2telecomunicacao"]
     }
     ]
 }
