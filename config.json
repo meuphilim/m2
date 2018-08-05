@@ -1,18 +1,28 @@
-[ {
+[ 
+{
     "title":"Inicial",
-    "drawable":"ic_account_box",
+    "drawable":"ic_home",
     "submenu":"Clientes",
     "iap":false,
     "tabs":[ {
         "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
     }
-    ,
-    {
-        "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
-    }
     ]
 }
 
+,
+{
+    "title":"Inicial",
+    "drawable":"ic_account_box",
+    "submenu":"Clientes",
+    "iap":false,
+    "tabs":[
+    {
+        "title": "Assinante", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/login/"]
+    }
+    ]
+}
+    
 ,
 {
     "title":"RádioWeb Cidade FM",
@@ -128,7 +138,7 @@
     "submenu":"Outros",
     "iap":false,
     "tabs":[ {
-        "title": "Maps", "provider": "maps", "arguments": ["https://www.mapbox.com/help/data/stations.geojson"]
+        "title": "Maps", "provider": "maps", "arguments": ["https://meuphilim.github.io/map.json"]
     }
     ]
 }
