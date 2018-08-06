@@ -1,39 +1,15 @@
 [ 
-  {
+{
     "title":"Wordpress Blogs",
-    "drawable":"",
-    "submenu":"",
+    "drawable":"ic_home",
+    "submenu":"Clientes",
     "iap":false,
     "tabs":[
       {
-        "title":"Recent Posts",
+        "title":"M2 Telecom",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com"
-        ]
-      },
-      {
-        "title":"Themes",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "themes"
-        ]
-      },
-      {
-        "title":"Security",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "security"
-        ]
-      },
-      {
-        "title":"Events",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "events"
+          "m2telecomunicacao.wordpress.com"
         ]
       }
     ]
@@ -48,9 +24,7 @@
         "title": "Wordpress", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Central do Cliente",
     "drawable":"ic_account_box",
@@ -61,9 +35,7 @@
         "title": "Assinante", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/login/"]
     }
     ]
-}
-    
-,
+},
 {
     "title":"Central do Cliente",
     "drawable":"ic_account_box",
@@ -83,9 +55,7 @@
         "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
     } 
     ]
-}
-    
-,
+},
 {
     "title":"RádioWeb Cidade FM",
     "drawable":"ic_radio",
@@ -96,9 +66,7 @@
         "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
     }
     ]
-}
-
-,
+},
 {
     "title":"TV Online",
     "drawable":"ic_personal_video",
@@ -109,9 +77,7 @@
         "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Noticias",
     "drawable":"ic_rss_feed",
@@ -122,9 +88,7 @@
         "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Ferramentas",
     "drawable":"ic_network_check",
@@ -135,9 +99,7 @@
         "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Twitter",
     "drawable":"ic_twitter_vector_18",
@@ -148,9 +110,7 @@
         "title": "Twitter", "provider": "twitter", "arguments": ["JMeuphilim"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Facebook",
     "drawable":"ic_facebook",
@@ -161,9 +121,7 @@
         "title": "Facebook", "provider": "facebook", "arguments": ["m2telecomunicacao"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Youtube",
     "drawable":"ic_857735_video_512x512",
@@ -186,9 +144,7 @@
         "title": "Mr Suicide Seep", "provider": "youtube", "arguments": ["UC5nc_ZtjKW1htCVZVRxlQAQ", "channel"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Categorias",
     "drawable":"",
@@ -199,9 +155,7 @@
         "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Teste Localização",
     "drawable":"",
@@ -212,9 +166,7 @@
         "title": "Maps", "provider": "maps", "arguments": ["https://meuphilim.github.io/map.json"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Teste Atvidade",
     "drawable":"",
@@ -225,9 +177,7 @@
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Telefone",
     "drawable":"ic_local_phone",
@@ -238,9 +188,7 @@
         "title": "6732553827", "provider": "custom", "arguments": [ "tel:06732553827", "url"]
     }
     ]
-}
-
-,
+},
 {
     "title":"Whatsapp",
     "drawable":"ic_174879",
@@ -252,9 +200,7 @@
     }
     ]
 	
-}
-
-,
+},
 {
     "title":"Locais",
     "drawable":"",
