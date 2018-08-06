@@ -4,7 +4,8 @@
     "drawable":"ic_home",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Wordpress", "provider": "wordpress", "arguments": ["https://m2telecomunicacao.wordpress.com/"]
     }
     ]
@@ -16,7 +17,8 @@
     "drawable":"ic_home",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Wordpress", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
     }
     ]
@@ -50,7 +52,8 @@
     "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
     } 
     ]
@@ -62,7 +65,8 @@
     "drawable":"ic_radio",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
     }
     ]
@@ -74,7 +78,8 @@
     "drawable":"ic_personal_video",
     "submenu":"Entretenimento",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
     }
     ]
@@ -86,7 +91,8 @@
     "drawable":"ic_rss_feed",
     "submenu":"Noticias",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
     }
     ]
@@ -98,7 +104,8 @@
     "drawable":"ic_network_check",
     "submenu":"Ferramentas",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
     }
     ]
@@ -110,7 +117,8 @@
     "drawable":"ic_twitter_vector_18",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Twitter", "provider": "twitter", "arguments": ["JMeuphilim"]
     }
     ]
@@ -122,7 +130,8 @@
     "drawable":"ic_facebook",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Facebook", "provider": "facebook", "arguments": ["m2telecomunicacao"]
     }
     ]
@@ -134,7 +143,8 @@
     "drawable":"ic_857735_video_512x512",
     "submenu":"Midia Social",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Youtube Live", "provider": "youtube", "arguments": ["UC14ap4T608Zz_Mz4eezhIqw", "live"]
     }
     ,
@@ -158,7 +168,8 @@
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
     }
     ]
@@ -170,7 +181,8 @@
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Maps", "provider": "maps", "arguments": ["https://meuphilim.github.io/map.json"]
     }
     ]
@@ -182,7 +194,8 @@
     "drawable":"",
     "submenu":"Outros",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
     }
     ]
@@ -194,7 +207,8 @@
     "drawable":"ic_local_phone",
     "submenu":"Contato",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "6732553827", "provider": "custom", "arguments": [ "tel:06732553827", "url"]
     }
     ]
@@ -206,12 +220,16 @@
     "drawable":"ic_174879",
     "submenu":"Contato",
     "iap":false,
-    "tabs":[ {
+    "tabs":[ 
+    {
         "title": "", "provider": "custom", "arguments": [ "whatsapp://send?text=Ola!&phone=+556732553827", "url"]
     }
     ]
-},
-   {
+	
+}
+
+,
+{
     "title":"Locais",
     "drawable":"",
     "submenu":"Contato",
