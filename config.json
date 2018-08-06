@@ -1,13 +1,17 @@
 [ 
 {
-    "title":"Wordpress",
+    "title":"Wordpress Blogs",
     "drawable":"ic_home",
     "submenu":"Clientes",
     "iap":false,
-    "tabs":[ 
-    {
-        "title": "Wordpress", "provider": "wordpress", "arguments": ["m2telecomunicacao.wordpress.com"]
-    }
+    "tabs":[
+      {
+        "title":"Recent Posts",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com"
+        ]
+      }
     ]
 }
 
