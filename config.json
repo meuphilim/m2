@@ -25,6 +25,19 @@
     
 ,
 {
+    "title":"Central do Cliente",
+    "drawable":"ic_account_box",
+    "submenu":"Clientes",
+    "iap":false,
+    "tabs":[
+    {
+        "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
+    }
+    ]
+}
+    
+
+{
     "title":"RádioWeb Cidade FM",
     "drawable":"ic_radio",
     "submenu":"Entretenimento",
