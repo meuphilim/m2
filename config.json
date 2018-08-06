@@ -1,5 +1,17 @@
 [ 
 {
+    "title":"Wordpress",
+    "drawable":"ic_home",
+    "submenu":"Clientes",
+    "iap":false,
+    "tabs":[ {
+        "title": "Inicial", "provider": "wordpress", "arguments": ["https://m2telecomunicacao.wordpress.com/"]
+    }
+    ]
+}
+
+,
+{
     "title":"Inicial",
     "drawable":"ic_home",
     "submenu":"Clientes",
@@ -32,7 +44,15 @@
     "tabs":[
     {
         "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
-    }
+    },
+    {
+    "title":"RádioWeb Cidade FM",
+    "drawable":"ic_radio",
+    "submenu":"Entretenimento",
+    "iap":false,
+    "tabs":[ {
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
+    } 
     ]
 }
     
