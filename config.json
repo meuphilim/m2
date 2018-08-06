@@ -69,7 +69,10 @@
     "submenu":"Noticias",
     "iap":false,
     "tabs":[ {
-        "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
+        "title": "Super Interessante", "provider": "rss", "arguments": ["https://super.abril.com.br/feed/"]
+    },
+    {
+        "title": "O Globo", "provider": "rss", "arguments": ["https://oglobo.globo.com/rss.xml"]
     }
     ]
 }
