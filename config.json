@@ -5,7 +5,7 @@
     "submenu":"Clientes",
     "iap":false,
     "tabs":[ {
-        "title": "Inicial", "provider": "wordpress", "arguments": ["https://m2telecomunicacao.wordpress.com/"]
+        "title": "Wordpress", "provider": "wordpress", "arguments": ["https://m2telecomunicacao.wordpress.com/"]
     }
     ]
 }
@@ -17,7 +17,7 @@
     "submenu":"Clientes",
     "iap":false,
     "tabs":[ {
-        "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
+        "title": "Wordpress", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
     }
     ]
 }
