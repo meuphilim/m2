@@ -6,7 +6,7 @@
     "iap":false,
     "tabs":[ 
     {
-        "title": "Wordpress", "provider": "wordpress", "arguments": ["https://m2telecomunicacao.wordpress.com/"]
+        "title": "Wordpress", "provider": "wordpress", "arguments": ["m2telecomunicacao.wordpress.com"]
     }
     ]
 }
