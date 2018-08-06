@@ -13,5 +13,200 @@
         ]
       }
     ]
+  },
+{
+    "title":"Inicial",
+    "drawable":"ic_home",
+    "submenu":"Clientes",
+    "iap":false,
+    "tabs":[ {
+        "title": "Inicial", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Central do Cliente",
+    "drawable":"ic_account_box",
+    "submenu":"Clientes",
+    "iap":false,
+    "tabs":[
+    {
+        "title": "Assinante", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/login/"]
+    }
+    ]
+}
+    
+,
+{
+    "title":"RádioWeb Cidade FM",
+    "drawable":"ic_radio",
+    "submenu":"Entretenimento",
+    "iap":false,
+    "tabs":[ {
+        "title": "RádioWeb Cidade FM", "provider": "radio", "arguments": ["https://www.radios.com.br/players/listen-radio.m3u?radio=70731"]
+    }
+    ]
+}
+
+,
+{
+    "title":"TV Online",
+    "drawable":"ic_personal_video",
+    "submenu":"Entretenimento",
+    "iap":false,
+    "tabs":[ {
+        "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Noticias",
+    "drawable":"ic_rss_feed",
+    "submenu":"Noticias",
+    "iap":false,
+    "tabs":[ {
+        "title": "Revista Época", "provider": "rss", "arguments": ["http://revistaepoca.globo.com/rss/ultimas/feed.xml"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Ferramentas",
+    "drawable":"ic_network_check",
+    "submenu":"Ferramentas",
+    "iap":false,
+    "tabs":[ {
+        "title": "Speed Test", "provider": "webview", "arguments": ["http://m2tel.speedtestcustom.com"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Twitter",
+    "drawable":"ic_twitter_vector_18",
+    "submenu":"Midia Social",
+    "iap":false,
+    "tabs":[ {
+        "title": "Twitter", "provider": "twitter", "arguments": ["JMeuphilim"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Facebook",
+    "drawable":"ic_facebook",
+    "submenu":"Midia Social",
+    "iap":false,
+    "tabs":[ {
+        "title": "Facebook", "provider": "facebook", "arguments": ["m2telecomunicacao"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Youtube",
+    "drawable":"ic_857735_video_512x512",
+    "submenu":"Midia Social",
+    "iap":false,
+    "tabs":[ {
+        "title": "Youtube Live", "provider": "youtube", "arguments": ["UC14ap4T608Zz_Mz4eezhIqw", "live"]
+    }
+    ,
+    {
+        "title": "Melhor do Sertanejo", "provider": "youtube", "arguments": ["PLPKT8Jkrumn-BBswkAIW2vcjoIaf4Z_Fn", "playlist"]
+    }
+    ,
+    {
+        "title": "Balada M2", "provider": "youtube", "arguments": ["PLJ7FSG1cmufXN7QE88Qt6XjcTsB_rs-hi", "playlist"]
+    }
+    ,
+    {
+        "title": "Mr Suicide Seep", "provider": "youtube", "arguments": ["UC5nc_ZtjKW1htCVZVRxlQAQ", "channel"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Categorias",
+    "drawable":"",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ {
+        "title": "Categories", "provider": "overview", "arguments": ["https://meuphilim.github.io/m2/overview.json"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Teste Localização",
+    "drawable":"",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ {
+        "title": "Maps", "provider": "maps", "arguments": ["https://meuphilim.github.io/map.json"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Teste Atvidade",
+    "drawable":"",
+    "submenu":"Outros",
+    "iap":false,
+    "tabs":[ {
+        "title": "Configurações", "provider": "custom", "arguments": ["com.sherdle.universal.SettingsFragment", "fragment"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Telefone",
+    "drawable":"ic_local_phone",
+    "submenu":"Contato",
+    "iap":false,
+    "tabs":[ {
+        "title": "6732553827", "provider": "custom", "arguments": [ "tel:06732553827", "url"]
+    }
+    ]
+}
+
+,
+{
+    "title":"Whatsapp",
+    "drawable":"ic_174879",
+    "submenu":"Contato",
+    "iap":false,
+    "tabs":[ {
+        "title": "", "provider": "custom", "arguments": [ "whatsapp://send?text=Ola!&phone=+556732553827", "url"]
+    }
+    ]
+},
+   {
+    "title":"Locais",
+    "drawable":"",
+    "submenu":"Contato",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"maps",
+        "arguments":[
+          "https://meuphilim.github.io/m2/geojson.json"
+        ]
+      }
+    ]
   }
+
 ]
