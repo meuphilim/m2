@@ -33,7 +33,7 @@
     "iap":false,
     "tabs":[
     {
-        "title": "Assinante", "provider": "webview", "arguments": ["https://meuphilim.github.io/mobile/login/"]
+        "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
     }
     ]
 }
