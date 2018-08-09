@@ -33,7 +33,7 @@
     "iap":false,
     "tabs":[
     {
-        "title": "Assinante", "provider": "webview", "arguments": ["http://177.202.43.19/index.php?tipo=minhaconta"]
+        "title": "Assinante", "provider": "webview", "arguments": ["http://bit.ly/2nkDbcy"]
     }
     ]
 }
@@ -57,7 +57,7 @@
     "submenu":"Entretenimento",
     "iap":false,
     "tabs":[ {
-        "title": "TV Brasil", "provider": "stream", "arguments": ["http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream3/playlist.m3u8"]
+        "title": "TV Brasil", "provider": "stream", "arguments": ["http://bladeuhd.top:25461/live/Meuphillim/KH0N5meDJK/5116.ts"]
     }
     ]
 }
