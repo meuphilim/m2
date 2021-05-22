@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "M2-Telecomunicações",
-    "currentPage": "index.html",
+    "currentPage": "sobrenos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,20 +41,35 @@
         "css": "'Oxygen', sans-serif",
         "name": "Oxygen",
         "url": "https://fonts.googleapis.com/css?family=Oxygen:300,400,700"
+      },
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 44,
-    "versionPublish": "4.9.3",
+    "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "http://www.m2tel.com.br",
     "sitemapSwitcherAuto": "on",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-41553656-3\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-41553656-3');\r\n</script>",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "imageResize": true,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "mbrsiteDomain": "w4aaejlrya",
+    "cookiesAlert": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "avisoManutencao.html": {
